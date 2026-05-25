@@ -21,13 +21,13 @@
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'local' );
+define( 'DB_NAME', 'newThemWordpress' );
 
 /** Database username */
 define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'root' );
+define( 'DB_PASSWORD', '' );
 
 /** Database hostname */
 define( 'DB_HOST', 'localhost' );
@@ -49,15 +49,15 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',          'yI9bslu.C#V>kz3`T7(zh2`8.3X92.)K&b4@9oy}X| ?c2XnbcP@rm(HXh--s&h8' );
-define( 'SECURE_AUTH_KEY',   'BSP#210XHq)vg*$Z3OvRiLLd=D&#+STqEV3ag7v4O4FN-)Y.bn0^sNj4]Sz2B#IJ' );
-define( 'LOGGED_IN_KEY',     'BZw3KZGZYL]4b}o/u*k_KSvdv+B3xa>Ny8]f!T!)U{ZQ[t2J5Vr1O240>N|bo8mw' );
-define( 'NONCE_KEY',         '^)d{pz-Q%)+Xp=[iVvvH %GpTX0P j#Vtz Yr!2`OoX3r-urNXR#hZPzpu=vH(z%' );
-define( 'AUTH_SALT',         '};2C#6b[pNNvrL[ZQ[|U{+4opTATK%GJlR:$HoyF6kW],X[2xKp7{q+e&!SIg/}Q' );
-define( 'SECURE_AUTH_SALT',  'qrWji8;W3ppbK#4(k4%,ep+uJXFN>v(rI~@[~]]z*4M.H)U!l-T`i`6-VHT>;(#N' );
-define( 'LOGGED_IN_SALT',    'pW9Tr9LitD!d+Z/KL)1]CbHfb/EM=R1jTzo$=h`Wdw{bBVGrB6Y>fY~=*Z{pqhZb' );
-define( 'NONCE_SALT',        'Izv0SkR@NaaoIhwV5)8pg(T]pjRm,uLSlI>%P=a3]:*BC1KLC)rE}tz7Pi4AGlE]' );
-define( 'WP_CACHE_KEY_SALT', '69D_&at(i4=].MNx>pcP^I6C&5db5?0W4G0:{.*w1{s}/88^qP=IQc}O9xrB_g!/' );
+define( 'AUTH_KEY',          '9^U-/~?6uWbZO% ^&_xjOsu[3(S<3&Gw}e4lJ0$U8dyOZKLct L.$ZKh2f+_`m97' );
+define( 'SECURE_AUTH_KEY',   'P1P4A}&T65IA,p(gV_C f,o*|vdSG?&f9 nm:?3nF8B5)[/OO:ByWTx}./Gz08:V' );
+define( 'LOGGED_IN_KEY',     ')E)Slf7I8_w^bHQA2)Z]>T]2)HzjQ1}$hXe*)a8vwgO;7uyE2]t|xj`UIl(oIrv]' );
+define( 'NONCE_KEY',         '.=A`RAi.aXrZ9HY&dw@#S|>^W%Xq,JsLAP:06G!LR4Q43Bu:<pubT7~LQK4M?*6h' );
+define( 'AUTH_SALT',         'jZ1-j~j-PYX-Je*56k$S*C9*o~o}xuqd@$q^x6>Xc*<$#5w}x:qLawF&.d?!. FA' );
+define( 'SECURE_AUTH_SALT',  'I%kzSU9d.OF$/2vK?:pklGoU_B|)i<2CK|[$@p=[rnTos)6.%{:e:`01l,4~x]5I' );
+define( 'LOGGED_IN_SALT',    'L?`c-K,)n`L1[O[$RD:$a0PbUf2G(7+bZP2a@^)Uf?;GMsgj ?hQoAqaZ_P<L8Dz' );
+define( 'NONCE_SALT',        'p4A;FZqjdxOi@w#io,UDS6]v2d`(Ms,vos!:d,f1lUN}Yhe7`U])d@j8A81~e@ON' );
+define( 'WP_CACHE_KEY_SALT', '9O]2<GI*`~?bW#}:c1<*c0H| B`A1_j,NU}Y^z|^fxe?``I3&!@[n4~Tf${9@PQS' );
 
 
 /**#@-*/
