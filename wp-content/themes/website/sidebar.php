@@ -30,6 +30,18 @@
         </ul>
     </section>
 
+    <section class="widget widget_recent_entries">
+        <h2 class="widget-title"><?php _e('Recent Posts', 'myside'); ?></h2>
+        <ul>
+            <?php
+            $recent = wp_get_recent_posts(array('numberposts'=>5,'post_status'=>'publish'));
+            foreach($recent as $post){
+                printf('<li><a href="%1$s">%2$s</a></li>', esc_url(get_permalink($post['ID'])), esc_html($post['post_title']));
+            }
+            ?>
+        </ul>
+    </section>
+
     <section class="widget widget_products">
         <h2 class="widget-title"><?php _e('Recent Products', 'myside'); ?></h2>
         <ul>
