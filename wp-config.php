@@ -24,7 +24,7 @@
 define( 'DB_NAME', 'newThemWordpress' );
 
 /** Database username */
-define( 'DB_USER', 'u790688222_DWBvC' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
 define( 'DB_PASSWORD', '' );
